@@ -1,0 +1,92 @@
+/* CSS declarations go here */
+body {
+      font-family: sans-serif;
+    background-color: #f0ffd9;
+    background-image: linear-gradient(to top, #d4ffc7, #f6ffdd 70%);
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+.item-container{
+  border: black solid 2px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  min-height: 370px;
+  background: #ffe778;
+}
+.img-container{
+  padding-bottom: 10px;
+}
+div[class^='col-'], div[class*=' col-']{
+    background: #fff4bf;
+}
+.pad20{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.container {
+  background: transparent;
+}
+
+header {
+    background: #ffa300;
+    background-image: linear-gradient(to bottom, #ff6300, #fff4bf 100%);
+    padding: 20px 15px 15px 15px;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+input {
+    margin: 0 0 0 10px;
+}
+  .filter-container{
+    height: 30px;
+  }
+@media (max-width: 600px) {
+  .filter-container{
+    height: 30px;
+  }
+  li {
+    padding: 12px 15px;
+  }
+
+  .search {
+    width: 150px;
+    clear: both;
+  }
+
+  .new-paper input {
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 990px) {
+   .item-container{
+    min-height: 340px;
+    padding-bottom: 0px;
+  }
+  .pad20{
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+   .img-responsive {
+    width: 100% !important;
+   }
+}
