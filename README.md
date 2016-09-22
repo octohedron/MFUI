@@ -1,4 +1,5 @@
-# MFUI stands for Meteor Filter User Interface
+# MFUI
+_stands for **M**eteor **F**ilter **U**ser **I**nterface_
 
 Cloud-enabled, full-responsive, Item filtering UI
 
@@ -64,9 +65,10 @@ W20160728-13:42:30.831(2)? (STDERR) MochaRunner.runServerTests: failures: 0
 
 ### TODO
 
- - Write more tests
  - Add account system
  - Add comments
+ - Limit results
+ - Integrate
  - Port to mobile
  - More awesome stuff
 
